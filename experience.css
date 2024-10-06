@@ -1,0 +1,118 @@
+			*{
+				padding:0px;
+				margin:0px;
+			}
+			nav{			
+				min-width:100%;
+				background:none;
+			}
+			.list_one{
+				list-style-type:none;
+				display:flex;
+				justify-content:space-evenly;
+				align-items:center;
+				min-height:50px;
+				padding:20px;
+			}
+			.link2{
+				padding:20px 70px;
+				background:#C3A867;
+				border-radius:10px;
+				font-size:22px;
+				color:white;
+				text-decoration:none;
+			}
+			.link2:hover{
+				border-bottom:5px solid black;
+				border-top:5px solid black;
+				color:black;
+				font-family:cursive, sans-serif;
+				border-radius:20px;
+			}
+			.section_one{
+				height:70px;
+				background:#C3A867;
+				display:flex;
+				flex-direction:column;
+				justify-content:center;
+				margin-bottom:20px;
+			}
+			.par_one{
+				color:white;
+				font-size:30px;
+				text-transform:uppercase;
+				left:20px;
+				position:relative;
+			}
+			.section_two{
+				width:100%;
+				min-height:300px;
+				display:flex;
+				flex-direction:column;
+				align-items:center;
+			}
+			.inner{
+				background:white;
+				width:800px;
+				height:400px;
+				padding:20px 10px;
+				border-radius:10px;
+			}
+			.contain{
+				display:flex;
+				flex-direction:row;
+				justify-content:space-evenly;
+			}
+			.par_two{
+				font-size:25px;
+				text-transform:uppercase;
+				color:#C3A867;
+				padding:10px 10px;
+				height:20px;
+			}
+			.par_two:hover{
+				border-bottom:2px solid #C3A867;
+				color:black;
+			}
+			.par_three{
+				font-size:20px;
+				padding:10px 10px;	
+				height:20px;
+			}
+			hr{
+				top:10px;
+				position:relative;
+			}
+			.par_four{
+				top:15px;
+				position:relative;
+				font-size:19px;
+			}
+			.list_two{
+				left:20px;
+				top:30px;
+				position:relative;
+				font-size:18px;
+			}
+			.footer{
+				height:40px;
+				width:818px;
+				left:-10px;
+				top:233px;
+				position:relative;
+				display:flex;
+				align-items:center;
+				background:#FAFAFA;
+			}
+			.par_five{
+				left:20px;
+				position:relative;
+			}
+			.body{
+				background-image:url(images/backy_two.jpg);
+				background-repeat:no-repeat;
+				background-size:100% 100%;
+			}
+			@media all and (min-width:480px) and (max-width:1024px) and (orientation: landscape){
+				
+			}

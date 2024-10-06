@@ -1,0 +1,88 @@
+			*{
+				padding:0px;
+				margin:0px;
+			}
+			nav{			
+				min-width:100%;
+				background:none;
+			}
+				a{
+				color:white;
+				text-decoration:none;
+			}
+			ul{
+				list-style-type:none;
+				display:flex;
+				justify-content:space-evenly;
+				align-items:center;
+				min-height:50px;
+				padding:20px;
+			}
+			.link2{
+				padding:20px 70px;
+				background:#C3A867;
+				border-radius:10px;
+				font-size:22px;
+			}
+			.link2:hover{
+				border-bottom:5px solid black;
+				border-top:5px solid black;
+				color:black;
+				font-family:cursive, sans-serif;
+				border-radius:20px;
+			}
+			.divv{
+				height:200px;
+				width:40%;
+				background:ghostwhite;
+				border-radius:10px;
+				padding:20px 10px;
+				box-shadow:10px 10px 8px grey;
+			}
+			.holder{
+				display:flex;
+				justify-content:space-evenly;
+				top:40px;
+				position:relative;
+				margin:20px 10px;
+			}
+			.contain{
+				background-image:url(images/edu.jpg);
+				background-size:100% 100%;
+				background-repeat:no-repeat;
+				height:800px; 
+				
+			}
+			.inner{
+				height:800px; 
+				background-color:rgba(0,0,0,0.7);
+			}
+			.upper{
+				font-size:20px;
+				text-align:center;
+				text-transform:uppercase;
+				color:#C3A867;
+			}
+			.locay{
+				top:10px;
+				left:20px;
+				position:relative;
+				color:#C3A867;
+			}
+			.certy{
+				top:50px;
+				left:20px;
+				position:relative;
+			}
+			.upper:hover{
+				border-bottom:2px solid #C3A867;
+				color:black;
+			}
+		@media all and (min-width:480px) and (max-width:1024px) and (orientation: landscape){
+			section{
+				flex-wrap:wrap;
+				}
+			.divv{
+				box-sizing:border-box;
+			}
+			}
